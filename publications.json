@@ -35,6 +35,16 @@
       "selected": 0,
       "award": "",
       "links": { "pdf": "#" }
+    },
+     {
+      "title": "RV-NAS: Boundary-Frequency Skip Attention and Surrogate-Guided Evolutionary Search for Retinal Vessel Segmen-
+tation.",
+      "thumbnail": "images/thumbs/2.jpg",
+      "authors": ["Abdullah Al Bary Voban"],
+      "venue": "Prepared for Submission",
+      "selected": 0,
+      "award": "",
+      "links": { "pdf": "#" }
     }
   ]
 }
