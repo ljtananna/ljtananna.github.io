@@ -1,37 +1,28 @@
 {
   "publications": [
     {
+      "title": "AI Driven Prediction and Optimisation of Thermophysical Properties of ZnO-TiO2 SiC Ternary Nanofluids for Thermal Energy Systems",
+      "thumbnail": "images/thumbs/2.jpg",
+      "authors": ["Hasan, Md Munirul", "Rahman, Md Mustafizur", "Ananna, Lubna Jahan Tasrin", "Suruj, Al Mahmud", "Arif, Md Zannatul", "Khalifa, Tarek", "Kanj, Hassan", "Islam, Md Shofiqul"],
+      "venue": "Array, 2026",
+      "selected": 1,
+      "award": "",
+      "links": { "pdf": "#" }
+    },
+    {
       "title": "A Composite Dual Attention Transformer for Query-Based Instance Segmentation in Autonomous Driving",
       "thumbnail": "images/thumbs/2.jpg",
-      "authors": ["Md Sohag Mia*", "Abdullah Al Bary Voban*", "Lubna Jahan Tasrin Ananna"],
+      "authors": ["Mia, Md Sohag", "Voban, Abdullah Al Bary", "Ananna, Lubna Jahan Tasrin"],
       "venue": "ICCIT 2025",
       "selected": 1,
       "award": "",
       "links": { "pdf": "https://ieeexplore.ieee.org/document/11491828" }
     },
     {
-      "title": "DANet: Enhancing Small Object Detection through an Efficient Deformable Attention Network",
-      "thumbnail": "images/thumbs/2.jpg",
-      "authors": ["Md Sohag Mia*", "Abdullah Al Bary Voban*", "Abu Bakor Hayat Arnob", "Abdu Naim"],
-      "venue": "ICCD 2023",
-      "selected": 1,
-      "award": "",
-      "links": { "pdf": "https://ieeexplore.ieee.org/document/10420622" }  
-    },
-    {
-      "title": "ViTs are Everywhere: A Comprehensive Study Showcasing Vision Transformers in Different Domain",
-      "thumbnail": "images/thumbs/2.jpg",
-      "authors": ["Md Sohag Mia*", "Abu Bakor Hayat Arnob*", "Abdu Naim", "Abdullah Al Bary Voban", "Md Shariful Islam"],
-      "venue": "ICCD 2023",
-      "selected": 0,
-      "award": "",
-      "links": { "pdf": "https://ieeexplore.ieee.org/document/10420683" }
-    },
-    {
       "title": "UNet-MSMamba: DINOv3 Meets Multi-Scale Mamba for Remote Sensing Image Segmentation",
       "thumbnail": "images/thumbs/2.jpg",
-      "authors": ["Abdullah Al Bary Voban"],
-      "venue": "Prepared for Submission",
+      "authors": ["Ananna, Lubna Jahan Tasrin", "Qi, Wang", "Voban, Abdullah Al Bary"],
+      "venue": "In Progress",
       "selected": 0,
       "award": "",
       "links": { "pdf": "#" }
@@ -39,8 +30,8 @@
     {
       "title": "RV-NAS: Boundary-Frequency Skip Attention and Surrogate-Guided Evolutionary Search for Retinal Vessel Segmentation",
       "thumbnail": "images/thumbs/2.jpg",
-      "authors": ["Abdullah Al Bary Voban"],
-      "venue": "Prepared for Submission",
+      "authors": ["Voban, Abdullah Al Bary", "Xue, Yu", "Ananna, Lubna Jahan Tasrin"],
+      "venue": "Submitted to Neurocomputing",
       "selected": 0,
       "award": "",
       "links": { "pdf": "#" }
