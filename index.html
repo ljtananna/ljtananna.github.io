@@ -4,14 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Academic Homepage of Lubna Jahan Tasrin Ananna">
-    <meta name="keywords" content="Artificial Intelligence, Computer Vision, Medical Imaging, Remote Sensing, Machine Learning">
+    <meta name="keywords" content="Artificial Intelligence, Computer Vision, Medical Imaging, Remote Sensing">
     <meta name="author" content="Lubna Jahan Tasrin Ananna">
-    <meta property="og:title" content="Academic Homepage - Lubna Jahan Tasrin Ananna">
-    <meta property="og:description" content="Research in artificial intelligence, computer vision, and related fields.">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="#">
-    <meta name="twitter:card" content="summary">
-    <title>Academic Homepage of Lubna Jahan Tasrin Ananna</title>
+    <title>Academic Homepage of Ananna</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;500;600&display=swap">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="stylesheet" href="styles.css">
@@ -30,36 +25,31 @@
             </div>
         </div>
         <div class="header-image">
-            <!-- Updated to match the file you uploaded -->
-            <img src="images/Ananna.png" alt="Profile Photo">
+            <!-- Updated to point to your main profile picture -->
+            <img src="images/Profilepic.jpeg" alt="Profile Photo">
         </div>
     </header>
 
     <main>
         <section id="about">
-            <p>Hi! I am a Master of Engineering student in Computer Science and Technology at Nanjing University of Information Science and Technology (NUIST), Nanjing, China. Previously, I received my B.Sc. in Computer Science and Technology from Jiangxi University of Technology.</p>
+            <p>Hi! I am a Master of Engineering student in Computer Science and Technology at Nanjing University of Information Science and Technology (NUIST), Nanjing, China. I am a Research Assistant at the School of Computer Science and Software. Previously, I received my B.Sc. in Computer Science and Technology from Jiangxi University of Technology.</p>
         </section>
 
         <section id="research">
             <h2>Research</h2>
-            <p>My research interests include <strong>Computer Vision and Image Segmentation, Vision Transformers and Attention Mechanisms, Medical Image Analysis, Remote Sensing Image Segmentation, Neural Architecture Search, Multimodal and Foundation Models, Deep Learning for Healthcare Prediction, and Machine Learning and Optimization.</strong></p>
-            <p>I build efficient, adaptable computer vision systems for medical imaging and remote sensing, domains where labeled data is scarce and imaging conditions constantly shift across scanners, modalities, and geographies. My work follows two directions: designing data-adaptive architectures for semantic segmentation, deformable attention for object detection <a href="https://ieeexplore.ieee.org/document/10420622">[DANet'23]</a>, and transformer-based deep fusion for confocal microendoscopy segmentation (UperNet-ViT), and adapting vision foundation models for specialized domains under few-shot and limited-supervision settings, including frequency-guided Mamba decoding (FreCaM) and DINOv3-based multi-scale segmentation (UNet-MSMamba) for remote sensing, MRI-based bone age prediction, and instance segmentation for autonomous driving <a href="https://ieeexplore.ieee.org/document/11491828">[ICCIT'25]</a>.</p>
+            <p>My research interests lie in <strong>Computer Vision, Image Segmentation, Vision Transformers, and Attention Mechanisms</strong>. I focus on Medical Image Analysis, Remote Sensing Image Segmentation, Neural Architecture Search, Multimodal and Foundation Models, and Deep Learning for Healthcare Prediction. I design deep learning models, including Transformer-, attention-, and Mamba-based architectures, for medical and remote sensing image segmentation.</p>
         </section>
 
         <section id="news">
             <h2>News</h2>
             <div class="news-container">
                 <ul class="news-list">
-                    <li>[2026]: Contributed to a Q1 journal paper, "AI Driven Prediction and Optimisation of Thermophysical Properties of ZnO-TiO2 SiC Ternary Nanofluids for Thermal Energy Systems," published in <i>Array</i>.</li>
-                    <li>[12/2025]: Paper "A Composite Dual Attention Transformer for Query-Based Instance Segmentation in Autonomous Driving" published at ICCIT 2025, Cox's Bazar, Bangladesh.</li>
-                    <li>[12/2024]: Elected Executive Member, Bangladesh China Youth Student Association (BCYSA).</li>
-                    <li>[09/2024]: Started as a Research Assistant at the School of Computer Science, NUIST.</li>
-                    <li>[06/2024]: Awarded Chinese Government Scholarship (CSC); completed MSc thesis, "UperNet-ViT: A Deep Fusion Approach for Comprehensive Confocal Microendoscopy Segmentation."</li>
-                    <li>[12/2023]: Won Bronze Prize at the National AI Innovation LINGANG Cup for bone age prediction from 2D MRI.</li>
-                    <li>[10/2023]: Two papers, "ViTs are Everywhere" and "DANet," published at ICCD 2023.</li>
-                    <li>[09/2022]: Started MSc in Artificial Intelligence at NUIST; awarded NUIST Outstanding Postgraduate Scholarship.</li>
-                    <li>[09/2022]: Elected Joint-Secretary, Bangladesh China Youth Student Association (BCYSA).</li>
-                    <li>[06/2022]: Completed Bachelor's in Computer Science and Technology at NUIST.</li>
+                    <li>[2026]: Published Q1 journal paper on AI-driven prediction and optimisation of thermophysical properties of ternary nanofluids (Array).</li>
+                    <li>[2025 - Present]: Awarded fully-funded Chinese Government Scholarship (CSC Type-A) to pursue Masters studies at NUIST.</li>
+                    <li>[2024 - Present]: Serving as Class Representative for the School of Computer Science, supervising 42 international Master's students.</li>
+                    <li>[2024 - Present]: Research Assistant at NUIST, authoring and co-authoring papers on retinal vessel segmentation and remote sensing.</li>
+                    <li>[2023]: Completed Bachelor's degree with highest marks for graduation thesis (Web Application Based Wireless Home Automation System).</li>
+                    <li>[2022]: Winner of the Provincial Government Scholarship (Jiangxi Provincial Government Scholarship).</li>
                 </ul>
             </div>
         </section>
@@ -70,7 +60,7 @@
                 <button id="toggle-publications" class="toggle-publications">Show All</button>
             </div>
             <div id="publications-container">
-                <!-- Publications will be dynamically loaded here via scripts.js -->
+                <!-- Publications will be dynamically loaded from publications.json -->
             </div>
         </section>
 
@@ -82,72 +72,40 @@
             </div>
             <div class="award-item">
                 <span class="award-year">2022</span>
-                <div class="award-desc">Winner of the Provincial Government Scholarship (Jiangxi Provincial Government Scholarship)</div>
+                <div class="award-desc">Winner of the Provincial Government Scholarship (20,000 RMB)</div>
+            </div>
+            <div class="award-item">
+                <span class="award-year">2019 - 2023</span>
+                <div class="award-desc">JXUT Outstanding Graduate Scholarship & Full-free University Scholarship</div>
             </div>
             <div class="award-item">
                 <span class="award-year">2021</span>
                 <div class="award-desc">Excellent Student and Leader Award</div>
-            </div>
-            <div class="award-item">
-                <span class="award-year">2019 - 2023</span>
-                <div class="award-desc">JXUT Outstanding Graduate Scholarship (Ranked top 1st Position at the Department)</div>
-            </div>
-            <div class="award-item">
-                <span class="award-year">2019 - 2023</span>
-                <div class="award-desc">Full-free University Scholarship</div>
             </div>
         </section>
 
         <section id="services">
             <h2>Services</h2>
             <div class="service-category">
-                <div class="service-title">Reviewer</div>
-                <p>MIET 2026, Machine Learning with Applications 2026, Knowledge-Based Systems 2026, Psychology, Health & Medicine 2025, IEEE/CAA JOURNAL OF AUTOMATICA SINICA 2025, Journal of Visual Communication and Image Representation 2025</p>
+                <div class="service-title">Academic Service</div>
+                <p>Class Representative (2024-Present), Jiangxi University of Technology Class Representative (2019-2023)</p>
             </div>
-
-            <div class="service-category">
-                <div class="service-title">Teaching Assistant</div>
-                <p><a>Probability Statistics</a></p>
-                <div class="service-title">Training Support Intern</div>
-                <p><a>International Training Course on Tropical Cyclone Forecasts</a></p>
-            </div>
-
             <div class="service-category">
                 <div class="service-title">Volunteer & Leadership</div>
-                <p>Executive Member, BCYSA; Joint-Secretary, BCYSA; Campus Ambassador, NUIST; Class Representative, NUIST & JXUT</p>
-            </div>
-        </section>
-
-        <section id="skills">
-            <h2>Skills</h2>
-            <div class="service-category">
-                <div class="service-title">Programming & Software</div>
-                <p>C, C++, Python, Java, JSP, MATLAB, Eclipse, Visual Studio, Docker, Android Studio</p>
-            </div>
-            <div class="service-category">
-                <div class="service-title">ML Frameworks</div>
-                <p>PyTorch, TensorFlow, ONNX, Scikit-learn, OpenCV, Pandas, NumPy</p>
-            </div>
-            <div class="service-category">
-                <div class="service-title">Web & Tools</div>
-                <p>HTML5, CSS3, JavaScript, MySQL, Bootstrap, Git, Microsoft Office tools, Video Editing, Social Media Managing, Photoshop, Illustration</p>
-            </div>
-            <div class="service-category">
-                <div class="service-title">Languages</div>
-                <p>English, Urdu, Bengali, Hindi, Chinese</p>
+                <p>Executive Member, Bangladesh China Youth Student Association (BCYSA) (2024-2025)</p>
             </div>
         </section>
 
         <section id="miscellaneous">
             <h2>Miscellaneous</h2>
             <div class="misc-item">
-                <p>I enjoy reading thriller novels - James Bond (Ian Fleming) and MacGyver-inspired adventure stories among my favorites - along with The Diary of a CEO by Steven Bartlett and Ikigai by Héctor García and Francesc Miralles. I'm also a fan of thriller movies. Outside of reading, I enjoy hiking, bike riding, playing cricket and table tennis, and watching football matches - I regularly play table tennis and cricket at NUIST.</p>
+                <p>I enjoy reading thriller novels and watching thriller movies. Outside of research, I enjoy hiking, bike riding, playing cricket and table tennis, and watching football matches. I regularly play table tennis and cricket at NUIST.</p>
             </div>
         </section>
     </main>
 
     <footer>
-        <p>Last updated: July 2026. Design and source code from <a href="https://cs.stanford.edu/~yuhuiz/">Yuhui Zhang's website</a>.</p>
+        <p>Last updated: 2026. Design and source code inspired by Yuhui Zhang's website.</p>
     </footer>
 
     <div id="imageModal" class="modal">
